@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --accent: #7738EC; 
+}
+
+body {
+    background-color: #111111;
+    font-family: "Source Sans Pro";
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 750px;
+}
+
+.visual {
+    padding: 25px; 
+    display: flex;
+    justify-content: center;
+    width: 100%;    
+}
+
+.headings {
+    max-width: 60vw;
+    background-image: linear-gradient(45deg, #27242D, #111111);
+    height: 100%;
+    padding: 0px 50px; 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+}
+
+.headings h2 {
+    color: white; 
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+.headings h1 {
+    color: white; 
+    font-size: 95px;
+}
