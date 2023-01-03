@@ -6,6 +6,8 @@
 
 :root {
     --accent: #7738EC; 
+    --background-primary: #111111;
+    --background-secondary: #27242D; 
 }
 
 body {
@@ -29,7 +31,7 @@ body {
 
 .headings {
     max-width: 60vw;
-    background-image: linear-gradient(45deg, #27242D, #111111);
+    background-image: linear-gradient(45deg, var(--background-secondary), var(--background-primary));
     height: 100%;
     padding: 0px 50px; 
     display: flex;
