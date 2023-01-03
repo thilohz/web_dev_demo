@@ -31,6 +31,7 @@ body {
     box-shadow: 0px 0px 10px 0px #000;
     padding: 2px;
     backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
 }
 
 .navbar ul li {
@@ -127,6 +128,10 @@ body {
 @media all and (max-width: 450px) {
     .headings {
         padding: 0px 15px; 
+    }
+
+    .visual {
+        max-width: calc(100vw - 25px); 
     }
 
     .headings h1 {
