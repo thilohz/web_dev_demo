@@ -116,7 +116,7 @@ body {
         flex-direction: column;
     }
 
-    .visual {
+    .visual img {
         max-width: 500px;   
     }
 
@@ -125,12 +125,12 @@ body {
     }
 }
 
-@media all and (max-width: 450px) {
+@media all and (max-width: 500px) {
     .headings {
         padding: 0px 15px; 
     }
 
-    .visual {
+    .visual img {
         max-width: calc(100vw - 25px); 
     }
 
